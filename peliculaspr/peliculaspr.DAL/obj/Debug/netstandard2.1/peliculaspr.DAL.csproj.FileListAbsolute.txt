@@ -1,0 +1,10 @@
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\bin\Debug\netstandard2.1\peliculaspr.DAL.deps.json
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\bin\Debug\netstandard2.1\peliculaspr.DAL.dll
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\bin\Debug\netstandard2.1\peliculaspr.DAL.pdb
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.csproj.AssemblyReference.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.AssemblyInfoInputs.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.AssemblyInfo.cs
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.csproj.CoreCompileInputs.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.dll
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.DAL\obj\Debug\netstandard2.1\peliculaspr.DAL.pdb

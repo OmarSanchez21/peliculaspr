@@ -1,0 +1,10 @@
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\bin\Debug\netstandard2.1\peliculaspr.BILL.deps.json
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\bin\Debug\netstandard2.1\peliculaspr.BILL.dll
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\bin\Debug\netstandard2.1\peliculaspr.BILL.pdb
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.csproj.AssemblyReference.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.AssemblyInfoInputs.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.AssemblyInfo.cs
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.csproj.CoreCompileInputs.cache
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.dll
+C:\Proyects\peliculaspr\peliculaspr\peliculaspr.BILL\obj\Debug\netstandard2.1\peliculaspr.BILL.pdb

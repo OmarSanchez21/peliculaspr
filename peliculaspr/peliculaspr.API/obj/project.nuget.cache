@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "h89GBBWCiivesjwmJ4Ywl92YtSANqXnZY/NPc/+sXyE0miFzq9hCPGMp/B5OPT7SCVBWeYBOwJttBwokgYK8Hw==",
+  "success": true,
+  "projectFilePath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
