@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj": {}
+    "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj": {}
   },
   "projects": {
-    "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj": {
+    "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj",
+        "projectUniqueName": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj",
         "projectName": "peliculaspr.BILL",
-        "projectPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj",
-        "packagesPath": "C:\\Users\\Omar Sanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.BILL\\obj\\",
+        "projectPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.BILL\\peliculaspr.BILL.csproj",
+        "packagesPath": "C:\\Users\\omisp\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.BILL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omar Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

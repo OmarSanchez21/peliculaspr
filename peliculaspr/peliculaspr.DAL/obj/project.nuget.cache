@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eqDka7AB30Vn+ncEI3hRcKAl9dnYxW+ibwu/YlNeksr1axRQZ8JpuWMdDjZwuQlTd19xSS3u0upUMkokwEkBUw==",
+  "dgSpecHash": "+H88gh69sNJ54QWt1L2sWH8by8XpUiY5OH7dYHzt0y1sSChL0lsG7znWcR0+YVHPhNBzFIRd9/WvR5V5/zMRsA==",
   "success": true,
-  "projectFilePath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.DAL\\peliculaspr.DAL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.DAL\\peliculaspr.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omisp\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

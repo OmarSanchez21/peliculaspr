@@ -3926,19 +3926,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Omar Sanchez\\.nuget\\packages\\": {}
+    "C:\\Users\\omisp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.Test\\peliculaspr.Test.csproj",
+      "projectUniqueName": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.Test\\peliculaspr.Test.csproj",
       "projectName": "peliculaspr.Test",
-      "projectPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.Test\\peliculaspr.Test.csproj",
-      "packagesPath": "C:\\Users\\Omar Sanchez\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.Test\\obj\\",
+      "projectPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.Test\\peliculaspr.Test.csproj",
+      "packagesPath": "C:\\Users\\omisp\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Omar Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\omisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3996,12 +3996,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

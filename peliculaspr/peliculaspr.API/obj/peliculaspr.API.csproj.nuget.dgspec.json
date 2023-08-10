@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj": {}
+    "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj": {}
   },
   "projects": {
-    "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj": {
+    "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj",
+        "projectUniqueName": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj",
         "projectName": "peliculaspr.API",
-        "projectPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj",
-        "packagesPath": "C:\\Users\\Omar Sanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyects\\peliculaspr\\peliculaspr\\peliculaspr.API\\obj\\",
+        "projectPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.API\\peliculaspr.API.csproj",
+        "packagesPath": "C:\\Users\\omisp\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Pelicula\\peliculaspr\\peliculaspr.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omar Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +57,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
