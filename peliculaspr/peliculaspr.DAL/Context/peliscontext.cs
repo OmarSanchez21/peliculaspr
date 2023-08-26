@@ -17,7 +17,7 @@ namespace peliculaspr.DAL.Context
 
         }
         public DbSet<MActor> actors { get; set; }
-        public DbSet<MBandaSonora> bands { get; set; }
+        public DbSet<MBandaSonora> banda { get; set; }
         public DbSet<MCritico> criticos { get; set; }
         public DbSet<MEquipoProduccion> producciones { get; set;}
         public DbSet<MFilmaciones> filmaciones { get;set; }

@@ -16,6 +16,5 @@ namespace peliculaspr.DAL.Models
         public int id_equipo { get; set; }
         public virtual MPelicula MPelicula { get; set; }
         public virtual MEquipoProduccion MEquipoProduccion { get; set; }
-
     }
 }

@@ -29,12 +29,8 @@ namespace peliculaspr.DAL.Core
             return this.myEntities.ToList();
         }
 
-        public virtual TEntity GetEntity(string id)
-        {
-            return this.myEntities.Find(id);
-        }
 
-        public TEntity GetEntity(int id)
+        public virtual TEntity GetEntity(int id)
         {
             return this.myEntities.Find(id);
         }
