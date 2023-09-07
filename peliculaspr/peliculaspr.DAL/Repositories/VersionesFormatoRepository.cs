@@ -35,11 +35,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MVersionesFormato> GetEntities()
         {
-            return this._peliscontext.versionesFormatos.Where(cd => !cd.IsDeleted).ToList();
+            return this._peliscontext.VersionesFormato.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MVersionesFormato GetEntity(int id)
         {
-            return this._peliscontext.versionesFormatos.FirstOrDefault(cd => cd.idversiones == id && !cd.IsDeleted);
+            return this._peliscontext.VersionesFormato.FirstOrDefault(cd => cd.idversiones == id && !cd.IsDeleted);
         }
 
     }

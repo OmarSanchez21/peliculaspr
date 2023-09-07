@@ -41,11 +41,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MActor> GetEntities()
         {
-            return this._actorRepository.actors.Where(cd => !cd.IsDeleted).ToList();
+            return this._actorRepository.Actor.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MActor GetEntity(int id)
         {
-            return this._actorRepository.actors.FirstOrDefault(cd => cd.idactor == id && !cd.IsDeleted);
+            return this._actorRepository.Actor.FirstOrDefault(cd => cd.idactor == id && !cd.IsDeleted);
         }
 
     }

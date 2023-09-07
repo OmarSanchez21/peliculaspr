@@ -41,11 +41,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MCritico> GetEntities()
         {
-            return this._criticorepository.criticos.Where(cd => !cd.IsDeleted).ToList();
+            return this._criticorepository.Critico.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MCritico GetEntity(int id)
         {
-            return this._criticorepository.criticos.FirstOrDefault(cd => cd.idcritico == id && !cd.IsDeleted);
+            return this._criticorepository.Critico.FirstOrDefault(cd => cd.idcritico == id && !cd.IsDeleted);
         }
     }
 }

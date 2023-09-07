@@ -30,11 +30,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MNominaciones> GetEntities()
         {
-            return this._nominacionesrepository.nominaciones.Where(cd => !cd.IsDeleted).ToList();
+            return this._nominacionesrepository.Nominaciones.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MNominaciones GetEntity(int id)
         {
-            return this._nominacionesrepository.nominaciones.FirstOrDefault(cd => cd.idnominaciones == id && !cd.IsDeleted);
+            return this._nominacionesrepository.Nominaciones.FirstOrDefault(cd => cd.idnominaciones == id && !cd.IsDeleted);
         }
     }
 }

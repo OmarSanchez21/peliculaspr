@@ -4,7 +4,7 @@ using System.Text;
 
 namespace peliculaspr.DAL.Exceptions
 {
-    internal class PremioDataExceptions : Exception
+    public class PremioDataExceptions : Exception
     {
         public PremioDataExceptions(string message) : base(message) 
         {

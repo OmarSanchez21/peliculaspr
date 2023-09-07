@@ -16,19 +16,19 @@ namespace peliculaspr.DAL.Context
         {
 
         }
-        public DbSet<MActor> actors { get; set; }
-        public DbSet<MBandaSonora> banda { get; set; }
-        public DbSet<MCritico> criticos { get; set; }
-        public DbSet<MEquipoProduccion> producciones { get; set;}
-        public DbSet<MFilmaciones> filmaciones { get;set; }
-        public DbSet<MLocacionesFilmacion> locacionesFilmacions { get; set; }
-        public DbSet<MMiembroProduccion> miembroProduccions { get; set; }
-        public DbSet<MNominaciones> nominaciones { get; set; }
-        public DbSet<MPelicula> peliculas { get; set; }
-        public DbSet<MPersonaje> personajes { get; set; }
-        public DbSet<MPremio> premios { get; set; }
-        public DbSet<MReseña> reseñas { get; set; }
-        public DbSet<MVersionesFormato> versionesFormatos { get; set; }
+        public DbSet<MActor> Actor { get; set; }
+        public DbSet<MBandaSonora> BandaSonora { get; set; }
+        public DbSet<MCritico> Critico { get; set; }
+        public DbSet<MEquipoProduccion> EquipoProduccion { get; set;}
+        public DbSet<MFilmaciones> Filmaciones { get;set; }
+        public DbSet<MLocalizacionesFilmacion> LocacionesFilmacion { get; set; }
+        public DbSet<MMiembroProduccion> MiembroProduccion { get; set; }
+        public DbSet<MNominaciones> Nominaciones { get; set; }
+        public DbSet<MPelicula> Pelicula { get; set; }
+        public DbSet<MPersonaje> Personaje { get; set; }
+        public DbSet<MPremio> Premios { get; set; }
+        public DbSet<MReseña> Resenas { get; set; }
+        public DbSet<MVersionesFormato> VersionesFormato { get; set; }
 
     }
 }

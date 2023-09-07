@@ -15,7 +15,7 @@ namespace peliculaspr.DAL.Models
         [ForeignKey("MLocacionesFilmacion")]
         public int id_locacion { get; set; }
         public virtual MPelicula MPelicula { get; set; }
-        public virtual MLocacionesFilmacion MLocacionesFilmacion { get; set; }
+        public virtual MLocalizacionesFilmacion MLocacionesFilmacion { get; set; }
 
     }
 }

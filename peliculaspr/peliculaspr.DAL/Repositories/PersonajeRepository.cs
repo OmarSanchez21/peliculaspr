@@ -35,11 +35,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MPersonaje> GetEntities()
         {
-            return this._personajerepository.personajes.Where(cd => !cd.IsDeleted).ToList();
+            return this._personajerepository.Personaje.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MPersonaje GetEntity(int id)
         {
-            return this._personajerepository.personajes.FirstOrDefault(cd => cd.idpersonaje == id && !cd.IsDeleted);
+            return this._personajerepository.Personaje.FirstOrDefault(cd => cd.idpersonaje == id && !cd.IsDeleted);
         }
     }
 }

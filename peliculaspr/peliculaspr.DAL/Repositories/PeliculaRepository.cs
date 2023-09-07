@@ -40,11 +40,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MPelicula> GetEntities()
         {
-            return this._pelicularepository.peliculas.Where(cd => !cd.IsDeleted).ToList();
+            return this._pelicularepository.Pelicula.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MPelicula GetEntity(int id)
         {
-            return this._pelicularepository.peliculas.FirstOrDefault(cd => cd.idpeliculas == id && !cd.IsDeleted);
+            return this._pelicularepository.Pelicula.FirstOrDefault(cd => cd.idpeliculas == id && !cd.IsDeleted);
         }
     }
 }

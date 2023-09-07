@@ -6,6 +6,7 @@ namespace peliculaspr.BILL.Dtos.EquipoProduccion
 {
     public class EquipoProduccionAddDto
     {
+
         public string? NombreMiembro { get; set; }
         public string? Rol { get; set; }
     }

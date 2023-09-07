@@ -8,6 +8,7 @@ namespace peliculaspr.BILL.Dtos.BandaSonora
 {
     public class BandaSonoraAddDto
     {
+        public int idbanda { get; set; }
         public string? NombreCancion { get; set; }
         public string Compositor { get; set; }
         public int id_pelicula { get; set; }

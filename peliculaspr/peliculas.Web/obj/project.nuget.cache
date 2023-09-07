@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vRYmYXfm0WsRUM0B1B5JQvt64MB0s8D+1r/RRDFO2P0+4YCwHFmnITO1qXsGBsClR6ppKTrAU1HUiOfX4Vvfrw==",
+  "dgSpecHash": "EdwJQBnLwXkIFZb1ozVJij5kQMP2dXO15t/Uy99dx7EInteIel3+DRrz8Ujy+jF6sZBT0vc4MZIJOsoZZYqkow==",
   "success": true,
   "projectFilePath": "C:\\projects\\Pelicula\\peliculaspr\\peliculas.Web\\peliculas.Web.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\omisp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\omisp\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\omisp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\omisp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

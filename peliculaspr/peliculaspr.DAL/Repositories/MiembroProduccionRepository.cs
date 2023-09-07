@@ -35,11 +35,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MMiembroProduccion> GetEntities()
         {
-            return this._miembro.miembroProduccions.Where(cd => !cd.IsDeleted).ToList();
+            return this._miembro.MiembroProduccion.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MMiembroProduccion GetEntity(int id)
         {
-            return this._miembro.miembroProduccions.FirstOrDefault(cd => cd.idmiembros == id && !cd.IsDeleted);
+            return this._miembro.MiembroProduccion.FirstOrDefault(cd => cd.idmiembros == id && !cd.IsDeleted);
         }
     }
 }

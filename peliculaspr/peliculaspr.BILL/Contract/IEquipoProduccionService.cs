@@ -8,7 +8,7 @@ namespace peliculaspr.BILL.Contract
 {
     public interface IEquipoProduccionService : IBaseService
     {
-        ServiceResult AddEquipoProduccion(EquipoProduccionAddDto equipoProduccionAddDto);
+        ServiceResult SaveEquipoProduccion(EquipoProduccionAddDto equipoProduccionAddDto);
         ServiceResult UpdateEquipoProduccion(EquipoProduccionUpdateDto equipoProduccionUpdateDto);
         ServiceResult RemoveEquipoProduccion(EquipoProduccionRemoveDto equipoProduccionRemoveDto);
     }

@@ -10,7 +10,7 @@ namespace peliculaspr.DAL.Models
         [Key]
         public int idpeliculas { get; set; }
         public string? Titulo { get; set; }
-        public int Año_de_Lanzamient { get; set; }
+        public int Año_de_Lanzamiento { get; set; }
         public string? Genero { get; set; }
         public TimeSpan Duracion { get; set; }
         public string? Sinopsis { get; set; }

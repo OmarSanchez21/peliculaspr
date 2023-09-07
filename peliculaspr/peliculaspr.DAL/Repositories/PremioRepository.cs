@@ -35,11 +35,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MPremio> GetEntities()
         {
-            return this._premiorepository.premios.Where(cd => !cd.IsDeleted).ToList();
+            return this._premiorepository.Premios.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MPremio GetEntity(int id)
         {
-            return this._premiorepository.premios.FirstOrDefault(cd => cd.idpremios == id && !cd.IsDeleted);
+            return this._premiorepository.Premios.FirstOrDefault(cd => cd.idpremios == id && !cd.IsDeleted);
         }
     }
 }

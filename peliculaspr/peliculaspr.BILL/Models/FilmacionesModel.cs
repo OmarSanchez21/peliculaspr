@@ -14,7 +14,7 @@ namespace peliculaspr.BILL.Models
         [ForeignKey("LocacioneFilmacionesModel")]
         public int id_locacion { get; set; }
         public virtual PeliculaModel PeliculaModel { get; set; }
-        public virtual LocacioneFilmacionesModel LocacioneFilmacionesModel { get; set; }
+        public virtual LocalizacioneFilmacionesModel LocacioneFilmacionesModel { get; set; }
 
     }
 }

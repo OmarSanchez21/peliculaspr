@@ -31,11 +31,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MBandaSonora> GetEntities()
         {
-            return this.peliscontext.banda.Where(cd => !cd.IsDeleted).ToList();
+            return this.peliscontext.BandaSonora.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MBandaSonora GetEntity(int id)
         {
-            return this.peliscontext.banda.FirstOrDefault(cd => cd.idbanda == id && !cd.IsDeleted);
+            return this.peliscontext.BandaSonora.FirstOrDefault(cd => cd.idbanda == id && !cd.IsDeleted);
         }
     }
 }
