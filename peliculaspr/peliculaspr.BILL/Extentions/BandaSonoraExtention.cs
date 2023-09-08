@@ -12,7 +12,6 @@ namespace peliculaspr.BILL.Extentions
         {
             MBandaSonora entity = new MBandaSonora()
             { 
-                idbanda = addDto.idbanda,
                 NombreCancion = addDto.NombreCancion,
                 Compositor = addDto.Compositor,
                 id_pelicula = addDto.id_pelicula

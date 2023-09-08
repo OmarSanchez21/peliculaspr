@@ -83,9 +83,6 @@ namespace peliculaspr.BILL.Services
             {
                 MBandaSonora mBanda = this.bandaSonoraRepository.GetEntity(bandaSonoraRemoveDto.idbanda);
                 mBanda.idbanda = bandaSonoraRemoveDto.idbanda;
-                mBanda.NombreCancion = bandaSonoraRemoveDto.NombreCancion;
-                mBanda.Compositor = bandaSonoraRemoveDto.Compositor;
-                mBanda.id_pelicula = bandaSonoraRemoveDto.id_pelicula;
                 mBanda.IsDeleted = true;
 
                 this.bandaSonoraRepository.Update(mBanda);

@@ -34,6 +34,18 @@ namespace peliculaspr.API
 
             //Dependencies
             services.AddActorDependecy();
+            services.AddBandaSonoraDependency();
+            services.AddCriticoDependey();
+            services.AddEquipoProduccionDependency();
+            services.AddFilmacionesDependency();
+            services.AddLocalizacionesFilmacionesDependency();
+            services.AddMiembroProduccionDependency();
+            services.AddNominacioneDependency();
+            services.AddPeliculaDependency();
+            services.AddPersonajeDependency();
+            services.AddPremioDependency();
+            services.AddReseñaDependency();
+            services.AddVersionesFormatoDependency();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

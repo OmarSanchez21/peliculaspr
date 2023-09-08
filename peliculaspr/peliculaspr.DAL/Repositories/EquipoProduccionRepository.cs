@@ -13,8 +13,8 @@ namespace peliculaspr.DAL.Repositories
     public class EquipoProduccionRepository : Core.RepositorioBase<MEquipoProduccion>, IEquipoProduccionRepository
     {
         private readonly peliscontext _equipoprod;
-        private readonly ILogger logger;
-        public EquipoProduccionRepository(peliscontext equipoprod, ILogger logger) : base(equipoprod)
+        private readonly ILogger<EquipoProduccionRepository> logger;
+        public EquipoProduccionRepository(peliscontext equipoprod, ILogger<EquipoProduccionRepository> logger) : base(equipoprod)
         {
            this._equipoprod = equipoprod;
             this.logger = logger;

@@ -8,7 +8,7 @@ namespace peliculaspr.API.Dependencies
 {
     public static class VersionesFormatoDependency
     {
-        public static void AddVersionesFormato(this IServiceCollection services)
+        public static void AddVersionesFormatoDependency(this IServiceCollection services)
         {
             services.AddScoped<IVersionesFormatoRepository, VersionesFormatoRepository>();
             services.AddTransient<IVersionesFormatoService, VersionesFormatoService>();
