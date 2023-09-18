@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<NominacionesController>
-        [HttpPost("SaveNominaciones")]
+        [HttpPost("AddNominaciones")]
         public IActionResult Post([FromBody] NominacionesAddDto nominacionesAddDto)
         {
             var result = this.nominacionesService.AddNominaciones(nominacionesAddDto);

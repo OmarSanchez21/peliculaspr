@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<MiembroProduccionController>
-        [HttpPost("SaveMiembroProduccion")]
+        [HttpPost("AddMiembroProduccion")]
         public IActionResult Post([FromBody] MiembroProduccionAddDto miembroProduccionAddDto)
         {
             var result = this.miembroProduccionService.AddMiembroProduccion(miembroProduccionAddDto);

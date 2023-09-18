@@ -40,11 +40,11 @@ namespace peliculaspr.DAL.Repositories
         }
         public override List<MReseña> GetEntities()
         {
-            return this._reseñarepository.Resenas.Where(cd => !cd.IsDeleted).ToList();
+            return this._reseñarepository.Resena.Where(cd => !cd.IsDeleted).ToList();
         }
         public override MReseña GetEntity(int id)
         {
-            return this._reseñarepository.Resenas.FirstOrDefault(cd => cd.idresena == id && !cd.IsDeleted);
+            return this._reseñarepository.Resena.FirstOrDefault(cd => cd.idresena == id && !cd.IsDeleted);
         }
     }
 }

@@ -31,7 +31,7 @@ namespace peliculaspr.BILL.Services
                 var miembro = this.miembroProduccionRepository.GetEntities()
                                                                     .Select(miem => new MiembroProduccionModel()
                                                                     {
-                                                                        idmiembros = miem.idmiembros,
+                                                                        idmiembro = miem.idmiembro,
                                                                         id_peliculas = miem.id_peliculas,
                                                                         id_equipo = miem.id_equipo
                                                                     }).ToList();
@@ -56,7 +56,7 @@ namespace peliculaspr.BILL.Services
                 var miembro = this.miembroProduccionRepository.GetEntity(id);
                 MiembroProduccionModel model = new MiembroProduccionModel()
                 {
-                    idmiembros = miembro.id_equipo,
+                    idmiembro = miembro.idmiembro,
                     id_peliculas = miembro.id_peliculas,
                     id_equipo = miembro.id_equipo
                 };
@@ -77,8 +77,8 @@ namespace peliculaspr.BILL.Services
             ServiceResult result = new ServiceResult();
             try
             {
-                MMiembroProduccion mMiembroProduccion = this.miembroProduccionRepository.GetEntity(miembroProduccionRemoveDto.idmiembros);
-                mMiembroProduccion.idmiembros = miembroProduccionRemoveDto.idmiembros;
+                MMiembroProduccion mMiembroProduccion = this.miembroProduccionRepository.GetEntity(miembroProduccionRemoveDto.idmiembro);
+                mMiembroProduccion.idmiembro = miembroProduccionRemoveDto.idmiembro;
                 mMiembroProduccion.IsDeleted = true;
 
                 miembroProduccionRepository.Update(mMiembroProduccion);
@@ -116,9 +116,9 @@ namespace peliculaspr.BILL.Services
             ServiceResult result = new ServiceResult();
             try
             {
-                MMiembroProduccion mMiembroProduccion = this.miembroProduccionRepository.GetEntity(miembroProduccionUpdateDto.idmiembros);
+                MMiembroProduccion mMiembroProduccion = this.miembroProduccionRepository.GetEntity(miembroProduccionUpdateDto.idmiembro);
 
-                mMiembroProduccion.idmiembros = miembroProduccionUpdateDto.idmiembros;
+                mMiembroProduccion.idmiembro = miembroProduccionUpdateDto.idmiembro;
                 mMiembroProduccion.id_peliculas = miembroProduccionUpdateDto.id_peliculas;
                 mMiembroProduccion.id_equipo = miembroProduccionUpdateDto.id_equipo;
 

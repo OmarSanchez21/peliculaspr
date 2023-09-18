@@ -10,7 +10,7 @@ namespace peliculaspr.DAL.Models
     {
         [Key]
         public int idfilmacion { get; set; }
-        [ForeignKey("MPeliculas")]
+        [ForeignKey("MPelicula")]
         public int id_pelicula { get; set; }
         [ForeignKey("MLocacionesFilmacion")]
         public int id_locacion { get; set; }

@@ -13,7 +13,7 @@ namespace peliculaspr.BILL.Extentions
             MReseña mReseña = new MReseña()
             {
                 Resena = addDto.Resena,
-                id_pelicula = addDto.id_pelicula,
+                id_peliculas = addDto.id_peliculas,
                 id_critico = addDto.id_critico
             };
             return mReseña;

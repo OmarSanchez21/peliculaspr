@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<PersonajeController>
-        [HttpPost("SavePersonaje")]
+        [HttpPost("AddPersonaje")]
         public IActionResult Post([FromBody] PersonajeAddDto personajeAddDto)
         {
             var result = this.personajeService.AddPersonaje(personajeAddDto);
@@ -57,7 +57,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // DELETE api/<PersonajeController>/5
-        [HttpDelete("{DeletePersonaje")]
+        [HttpDelete("DeletePersonaje")]
         public IActionResult Delete(PersonajeRemoveDto personajeRemoveDto)
         {
             var result = this.personajeService.RemovePersonaje(personajeRemoveDto);

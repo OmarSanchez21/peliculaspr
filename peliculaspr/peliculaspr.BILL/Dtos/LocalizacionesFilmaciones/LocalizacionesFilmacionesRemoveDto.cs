@@ -7,7 +7,5 @@ namespace peliculaspr.BILL.Dtos.LocacionesFilmaciones
     public class LocalizacionesFilmacionesRemoveDto
     {
         public int idlocacion { get; set; }
-        public string? NombreLocacion { get; set; }
-        public string? Direccion { get; set; }
     }
 }

@@ -7,7 +7,5 @@ namespace peliculaspr.BILL.Dtos.EquipoProduccion
     public class EquipoProduccionRemoveDto
     {
         public int idequipo { get; set; }
-        public string? NombreMiembro { get; set; }
-        public string? Rol { get; set; }
     }
 }

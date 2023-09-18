@@ -8,7 +8,7 @@ namespace peliculaspr.BILL.Models
 {
     public class MiembroProduccionModel
     {
-        public int idmiembros { get; set; }    
+        public int idmiembro { get; set; }    
         public int id_peliculas { get; set; }
         [ForeignKey("PeliculaModel")]
         public int id_equipo { get; set; }

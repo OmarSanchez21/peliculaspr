@@ -38,7 +38,7 @@ namespace peliculaspr.BILL.Services
                                                         {
                                                             idresena = re.idresena,
                                                             Resena = re.Resena,
-                                                            id_pelicula = re.id_pelicula,
+                                                            id_peliculas = re.id_peliculas,
                                                             id_critico = re.id_critico
                                                         }).ToList();
                 result.Data = resena;
@@ -65,7 +65,7 @@ namespace peliculaspr.BILL.Services
                 { 
                     idresena = resena.idresena,
                     Resena = resena.Resena,
-                    id_pelicula = resena.id_pelicula,
+                    id_peliculas = resena.id_peliculas,
                     id_critico = resena.id_critico
                 };
                 result.Data = reseñaModel;
@@ -142,7 +142,7 @@ namespace peliculaspr.BILL.Services
 
                 mReseña.idresena = reseñaUpdateDto.idresena;
                 mReseña.Resena = reseñaUpdateDto.Resena;
-                mReseña.id_pelicula = reseñaUpdateDto.id_pelicula;
+                mReseña.id_peliculas = reseñaUpdateDto.id_peliculas;
                 mReseña.id_critico = reseñaUpdateDto.id_critico;
 
                 this.reseñaRepository.Update(mReseña);

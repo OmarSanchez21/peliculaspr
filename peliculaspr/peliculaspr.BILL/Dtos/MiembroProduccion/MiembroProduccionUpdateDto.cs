@@ -6,7 +6,7 @@ namespace peliculaspr.BILL.Dtos.MiembroProduccion
 {
     public class MiembroProduccionUpdateDto
     {
-        public int idmiembros { get; set; }
+        public int idmiembro { get; set; }
         public int id_peliculas { get; set; }
         public int id_equipo { get; set; }
     }

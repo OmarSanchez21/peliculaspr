@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Request\VersionesFormato\" />
+    <Folder Include="Models\Request\Reseña\" />
+    <Folder Include="Models\Request\Premio\" />
+    <Folder Include="Models\Request\Personaje\" />
+    <Folder Include="Models\Request\Pelicula\" />
+    <Folder Include="Models\Response\" />
+  </ItemGroup>
+
 </Project>

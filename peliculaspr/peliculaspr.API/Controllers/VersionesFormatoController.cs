@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<VersionesFormatoController>
-        [HttpPost("SaveVersionesFormato")]
+        [HttpPost("AddVersionesFormato")]
         public IActionResult Post([FromBody] VersionesFormatoAddDto versionesFormatoAddDto)
         {
             var result = this.versionesFormatoService.AddVersionesFormato(versionesFormatoAddDto);

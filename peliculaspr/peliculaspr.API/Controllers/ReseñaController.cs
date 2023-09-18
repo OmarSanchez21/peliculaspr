@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<ReseñaController>
-        [HttpPost("SaveReseña")]
+        [HttpPost("AddReseña")]
         public IActionResult Post([FromBody] ReseñaAddDto reseñaAddDto)
         {
             var result = this.reseñaService.AddReseña(reseñaAddDto);
@@ -57,7 +57,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // DELETE api/<ReseñaController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("RemoveReseña")]
         public IActionResult Delete(ReseñaRemoveDto reseñaRemoveDto)
         {
             var result = this.reseñaService.RemoveReseña(reseñaRemoveDto);

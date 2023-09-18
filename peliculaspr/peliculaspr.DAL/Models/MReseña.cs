@@ -12,7 +12,7 @@ namespace peliculaspr.DAL.Models
         public int idresena { get; set; }
         public string? Resena { get; set; }
         [ForeignKey("MPelicula")]
-        public int id_pelicula { get; set; }
+        public int id_peliculas { get; set; }
         [ForeignKey("MCritico")]
         public int id_critico { get; set; }
         public virtual MPelicula MPelicula { get; set; }

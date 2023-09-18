@@ -11,7 +11,7 @@ namespace peliculaspr.BILL.Models
         public int idresena { get; set; }
         public string? Resena { get; set; }
         [ForeignKey("PeliculaModel")]
-        public int id_pelicula { get; set; }
+        public int id_peliculas { get; set; }
         [ForeignKey("CriticoModel")]
         public int id_critico { get; set; }
         public virtual PeliculaModel PeliculaModel { get; set; }

@@ -9,7 +9,7 @@ namespace peliculaspr.DAL.Models
     public class MMiembroProduccion : Core.AllEntity
     {
         [Key]
-        public int idmiembros { get; set; }
+        public int idmiembro { get; set; }
         [ForeignKey("MPelicula")]
         public int id_peliculas { get; set; }
         [ForeignKey("MEquipoProduccion")]

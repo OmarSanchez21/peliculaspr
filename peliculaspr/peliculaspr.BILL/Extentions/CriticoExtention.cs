@@ -12,7 +12,6 @@ namespace peliculaspr.BILL.Extentions
         {
             MCritico critico = new MCritico()
             {
-                idcritico = addDto.idcritico,
                 Nombre = addDto.Nombre,
                 MedioComuncacion = addDto.MedioComuncacion
             };

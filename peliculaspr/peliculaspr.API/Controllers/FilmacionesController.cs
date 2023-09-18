@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<FilmacionesController>
-        [HttpPost("SaveFilmacion")]
+        [HttpPost("AddFilmaciones")]
         public IActionResult Post([FromBody] FilmacionesAddDto filmacionesAddDto)
         {
             var result = this.filmacionesService.AddFilmaciones(filmacionesAddDto);

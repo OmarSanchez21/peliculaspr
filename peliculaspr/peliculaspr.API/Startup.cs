@@ -33,6 +33,7 @@ namespace peliculaspr.API
 
 
             //Dependencies
+
             services.AddActorDependecy();
             services.AddBandaSonoraDependency();
             services.AddCriticoDependey();

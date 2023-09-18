@@ -35,7 +35,7 @@ namespace peliculaspr.API.Controllers
         }
 
         // POST api/<PremioController>
-        [HttpPost("SavePremio")]
+        [HttpPost("AddPremio")]
         public IActionResult Post([FromBody] PremioAddDto premioAddDto)
         {
             var result = this.premioService.AddPremio(premioAddDto);

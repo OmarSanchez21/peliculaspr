@@ -12,7 +12,6 @@ namespace peliculaspr.BILL.Extentions
         {
             MMiembroProduccion mMiembroProduccion = new MMiembroProduccion()
             {
-                idmiembros = addDto.idmiembros,
                 id_peliculas = addDto.id_peliculas,
                 id_equipo = addDto.id_equipo
             };

@@ -27,7 +27,7 @@ namespace peliculaspr.DAL.Context
         public DbSet<MPelicula> Pelicula { get; set; }
         public DbSet<MPersonaje> Personaje { get; set; }
         public DbSet<MPremio> Premios { get; set; }
-        public DbSet<MReseña> Resenas { get; set; }
+        public DbSet<MReseña> Resena { get; set; }
         public DbSet<MVersionesFormato> VersionesFormato { get; set; }
 
     }
